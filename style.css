@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    background-image: url(./lum3n--RBuQ2PK_L8-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+     /* background: linear-gradient(135deg,red 0%, blue 100%); */
+     color: #fff;
+         
+}
+.container{
+    color: rgb(50, 49, 49);
+    background-color:transparent;
+    border-radius: 30px;
+    box-shadow: 10px 10px 15px rgb(96, 95, 95);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    padding: 50px;
+}
+.container:hover{
+    transition: all0,2s ease-in-out;
+    background-color:rgba(222, 162, 198, 0.221) ;
+    box-shadow: inset 10px 10px 20px rgba(0, 0, 0, 0.2), inset 10px 10px 20px rgba(0, 0, 0, 0.2);
+
+}
+h1{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.form-group{
+    margin-bottom: 15px;
+
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1rem;
+}
+input[type="date"],button{
+    width: 90%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+input[type="date"]{
+    background: rgba(255, 255, 255, 0.7);
+    color: #333;
+    box-shadow: inset 10px 10px 20px rgba(0, 0, 0, 0.2), inset 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+button{
+    cursor: pointer;
+    font-weight: bold;
+    transition: all0,2s ease-in-out;
+}
+button:hover{
+    background-color: rgb(99, 50, 50);
+    box-shadow: inset 10px 10px 20px rgba(0, 0, 0, 0.2), inset 10px 10px 20px rgba(0, 0, 0, 0.2);
+
+}
+.result{
+    margin-top: 20px;
+    /* border: 2px solid red;  */
+    height: 20px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+     /* display: none; */
+}
+.error{
+    color: red;
+    margin-top: 10px;
+    font-weight: bold;
+    /* border: 2px solid green; */
+    height: 20px;
+    border-radius: 10px;
+    /* display: none; */
+}
